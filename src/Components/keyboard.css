@@ -1,0 +1,26 @@
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 1px;
+}
+
+.keys > div {
+  border: 1px solid black;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.actions > div {
+  width: 100px;
+}
